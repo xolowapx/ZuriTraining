@@ -7,7 +7,7 @@ Repo URL:
 */
 *{
   margin: 0;
-  padding: 0;
+  padding: 2px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,6 +51,69 @@ html,body{
   z-index: 0;
   border-radius: 5px;
 }
+
+.input-group{
+	margin: 0;
+	height: 100%;
+	font-size: 17px;
+	padding: 2px;
+	z-index: 1;
+	outline: none;
+	line-height: 100%;
+	border: 1px;
+	border-radius: 3px;
+	border-bottom-width: 2px;
+}
+
+i {
+  position: relative;
+  font-size: 16px;
+}         
+
+.icon{
+  padding-right: 2px;
+  word-spacing: 2px;
+  border-spacing: 4px;
+}
+.input-box input[type="text"]{
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+}
+.input-box input[type="email"] {
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+}
+.input-box input[type="radio"] {
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	padding-left: 0;
+	padding-right: 2px;
+}
+.input-box input[type="tel"]{
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+}
+
+span{
+	height: 100%;
+	width: 30%;
+	font-size: 16px;
+	padding-left: 0;
+	padding-right: 2px;
+}
+
+select {
+	height: 100%;
+	width: 40%;
+	position: relative;
+	font-size: 16px;
+	padding-left: 0;
+	float: left: 
+}
 .input-box button[type="submit"]{
   height: 100%;
   width: 100%;
@@ -64,4 +127,9 @@ html,body{
   font-weight: 600;
   cursor: pointer;
   background: purple;
+}
+.input-box button[type="submit"]:hover {
+	color: #80f80f;
+	text-decoration: underline;
+	border: 0;
 }
